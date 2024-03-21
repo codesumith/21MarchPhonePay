@@ -1,0 +1,7 @@
+package com.phonePay.Transaction.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public class PhonePayTransactionRepository implements JpaRepository<t, ID> {
+
+}

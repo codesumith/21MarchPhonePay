@@ -1,0 +1,9 @@
+package com.phonePay.Transaction.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.phonePay.Transaction.entity.TransactionDtls;
+
+public class PhonePayTransactionRepository implements JpaRepository<TransactionDtls, String> {
+
+}

@@ -1,0 +1,16 @@
+package com.phonePay.Transaction.service;
+
+import org.springframework.stereotype.Service;
+
+import com.phonePay.Transaction.entity.TransactionDtls;
+
+@Service
+public class PhonePayTransacitonalService {
+
+	PhonePayTransactionRepository 
+	
+	public void saveTransactionalDetails(TransactionDtls transactionDtls) {
+		
+	}
+	
+}

@@ -1,0 +1,62 @@
+package com.phonePay.Transaction.entity;
+
+
+public class TransactionDtls {
+
+	private String customerName;
+	private String customerUpiId;
+	private String receiverUpiAddress;
+	private double amountSending;
+
+	public TransactionDtls() {
+		super();
+
+	}
+
+	public TransactionDtls(String customerName, String customerUpiId, String receiverUpiAddress, double amountSending) {
+		super();
+		this.customerName = customerName;
+		this.customerUpiId = customerUpiId;
+		this.receiverUpiAddress = receiverUpiAddress;
+		this.amountSending = amountSending;
+	}
+
+	public String getCustomerName() {
+		return customerName;
+	}
+
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+
+	public String getCustomerUpiId() {
+		return customerUpiId;
+	}
+
+	public void setCustomerUpiId(String customerUpiId) {
+		this.customerUpiId = customerUpiId;
+	}
+
+	public String getReceiverUpiAddress() {
+		return receiverUpiAddress;
+	}
+
+	public void setReceiverUpiAddress(String receiverUpiAddress) {
+		this.receiverUpiAddress = receiverUpiAddress;
+	}
+
+	public double getAmountSending() {
+		return amountSending;
+	}
+
+	public void setAmountSending(double amountSending) {
+		this.amountSending = amountSending;
+	}
+
+	@Override
+	public String toString() {
+		return "TransactionDtls [customerName=" + customerName + ", customerUpiId=" + customerUpiId
+				+ ", receiverUpiAddress=" + receiverUpiAddress + ", amountSending=" + amountSending + "]";
+	}
+
+}

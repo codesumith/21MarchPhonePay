@@ -1,0 +1,5 @@
+package com.phonePay.Transaction.entity;
+
+public class TransactionDtls {
+
+}
